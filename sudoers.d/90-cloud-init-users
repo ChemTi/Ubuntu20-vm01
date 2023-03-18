@@ -1,0 +1,7 @@
+# Created by cloud-init v. 22.4.2-0ubuntu0~20.04.2 on Fri, 27 Jan 2023 17:05:37 +0000
+
+# User rules for testvm02
+testvm02 ALL=(ALL) NOPASSWD:ALL
+
+# User rules for sunrise
+sunrise ALL=(ALL) NOPASSWD:ALL
