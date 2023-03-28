@@ -57,3 +57,5 @@ testvm02:!::
 usercloud:!::usercloud
 sunrise:!::
 mentor:!::
+ssl-cert:!::
+mysql:!::

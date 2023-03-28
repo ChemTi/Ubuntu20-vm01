@@ -29,3 +29,6 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 testvm02:x:1000:1001::/home/testvm02:/bin/bash
 usercloud:x:1001:1002::/home/usercloud:/bin/bash
 sunrise:x:1002:1003::/home/sunrise:/bin/bash
+mentor:x:1003:1004::/home/mentor:/bin/bash
+mysql:x:109:116:MySQL Server,,,:/nonexistent:/bin/false
+ftp:x:110:117::/srv/ftp:/usr/sbin/nologin
