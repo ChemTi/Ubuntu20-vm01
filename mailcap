@@ -35,6 +35,8 @@ application/x-troff-man; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/us
 text/troff; /usr/bin/nroff -mandoc -Tutf8; copiousoutput; print=/usr/bin/nroff -mandoc -Tutf8 | print text/plain:-
 application/x-info; /usr/bin/info -f '%s'; needsterminal; description=GNU Info document
 text/plain; more %s; needsterminal
+application/ogg; ogg123 %s; description="Ogg Vorbis multimedia format"
+audio/ogg; ogg123 %s; description="Ogg Vorbis multimedia format"
 text/english; vim %s; needsterminal
 text/plain; vim %s; needsterminal
 text/x-makefile; vim %s; needsterminal
@@ -61,6 +63,9 @@ application/x-info; /usr/bin/info --subnodes -o /dev/stdout -f '%s' 2>/dev/null;
 application/x-tar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
 application/x-gtar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
 application/x-ustar; /bin/tar tvf '%s'; print=/bin/tar tvf - | print text/plain:-; copiousoutput
+application/ogg; ogginfo '%s'; copiousoutput; description="Ogg Vorbis multimedia format"
+audio/ogg; ogginfo '%s'; copiousoutput
+video/ogg; ogginfo '%s'; copiousoutput
 text/*; more %s; needsterminal
 text/*; view %s; edit=vi %s; compose=vi %s; needsterminal
 application/vnd.debian.binary-package; /usr/lib/mime/debian-view %s; needsterminal; description=Debian GNU/Linux Package; nametemplate=%s.deb
