@@ -59,3 +59,4 @@ sunrise:x:1003:
 mentor:x:1004:
 ssl-cert:x:115:
 mysql:x:116:
+ftp:x:117:
