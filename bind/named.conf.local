@@ -6,3 +6,13 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "yandex2.ru" {
+type master;
+file "/etc/bind/myzones/yandex2/yandex2.db";
+};
+
+zone "119.84.62.in-addr.arpa"
+{
+type master;
+file "/etc/bind/myzones/yandex2/reverse.db";
+};
