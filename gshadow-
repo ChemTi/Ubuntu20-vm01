@@ -60,3 +60,5 @@ mentor:!::
 ssl-cert:!::
 mysql:!::
 ftp:!::
+bind:!::
+postfix:!::
