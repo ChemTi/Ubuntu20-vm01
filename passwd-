@@ -36,3 +36,5 @@ bind:x:111:118::/var/cache/bind:/usr/sbin/nologin
 postfix:x:112:119::/var/spool/postfix:/usr/sbin/nologin
 dovecot:x:113:121:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
 dovenull:x:114:122:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
+vmail:x:5000:5000:virtual mail user:/var/mail/vhosts:/bin/sh
+dnsmasq:x:115:65534::/var/lib/misc:/usr/sbin/nologin

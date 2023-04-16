@@ -1,0 +1,16 @@
+$TTL 30m
+@ IN SOA ns1.62.84.119.211.nip.io. admin.62.84.119.211.nip.io. (
+1 ; serial
+5h ; renew period
+5m ; retry
+1w ; expire
+30m ); denial cache;
+@ IN NS ns1.62.84.119.211.nip.io.
+@ IN NS ns2.62.84.119.211.nip.io.
+
+62.84.119.211.nip.io. IN MX 10 mail.62.84.119.211.nip.io.
+62.84.119.211.nip.io. IN A 62.84.119.211
+ns1 IN A 62.84.119.211
+ns2 IN A 62.84.119.211
+www IN CNAME 62.84.119.211.nip.io.
+mail IN A 62.84.119.211

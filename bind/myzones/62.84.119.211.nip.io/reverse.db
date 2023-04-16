@@ -1,0 +1,11 @@
+$TTL 604800
+119.84.62.in-addr.arpa. IN SOA ns1.62.84.119.211.nip.io. admin.62.84.119.211.nip.io. (
+99115 ; serial
+3h ; renew period
+1h ; retry
+1w ; expire
+1h ) ; denial cache;
+119.84.62.in-addr.arpa. IN NS ns1.62.84.119.211.nip.io.
+119.84.62.in-addr.arpa. IN NS ns2.62.84.119.211.nip.io.
+211.119.84.62.in-addr.arpa. IN PTR 62.84.119.211.nip.io.
+212.119.84.62.in-addr.arpa. IN PTR mail.62.84.119.211.nip.io.

@@ -6,13 +6,14 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
-zone "yandex2.ru" {
+zone "62.84.119.211.nip.io" {
 type master;
-file "/etc/bind/myzones/yandex2/yandex2.db";
+file "/etc/bind/myzones/62.84.119.211.nip.io/62.84.119.211.nip.io.db";
 };
 
 zone "119.84.62.in-addr.arpa"
 {
 type master;
-file "/etc/bind/myzones/yandex2/reverse.db";
+file "/etc/bind/myzones/62.84.119.211.nip.io/reverse.db";
 };
+
