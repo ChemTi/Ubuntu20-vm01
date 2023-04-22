@@ -37,4 +37,7 @@ postfix:x:112:119::/var/spool/postfix:/usr/sbin/nologin
 dovecot:x:113:121:Dovecot mail server,,,:/usr/lib/dovecot:/usr/sbin/nologin
 dovenull:x:114:122:Dovecot login user,,,:/nonexistent:/usr/sbin/nologin
 vmail:x:5000:5000:virtual mail user:/var/mail/vhosts:/bin/sh
-dnsmasq:x:115:65534::/var/lib/misc:/usr/sbin/nologin
+dnsmasq:x:115:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+clamav:x:116:123::/var/lib/clamav:/bin/false
+clamsmtp:x:117:124::/var/spool/clamsmtp:/bin/false
+debian-spamd:x:118:125::/var/lib/spamassassin:/usr/sbin/nologin
