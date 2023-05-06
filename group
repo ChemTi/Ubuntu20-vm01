@@ -70,3 +70,4 @@ clamav:x:123:
 clamsmtp:x:124:clamav
 debian-spamd:x:125:
 spamd:x:5001:
+docker:x:998:

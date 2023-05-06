@@ -69,3 +69,4 @@ vmail:!::
 clamav:!::
 clamsmtp:!::clamav
 debian-spamd:!::
+spamd:!::

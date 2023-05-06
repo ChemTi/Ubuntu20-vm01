@@ -74,6 +74,7 @@ $config['des_key'] = 'WV4]4GOAVX2xbPrNV9bVMS7l';
 // List of active plugins (in plugins/ directory)
 // Debian: install roundcube-plugins first to have any
 $config['plugins'] = array(
+       "managesieve"
 );
 
 // skin name: folder from skins/
