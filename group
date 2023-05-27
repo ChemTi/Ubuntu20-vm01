@@ -71,3 +71,5 @@ clamsmtp:x:124:clamav
 debian-spamd:x:125:
 spamd:x:5001:
 docker:x:998:
+zabbix:x:126:
+Debian-snmp:x:127:
